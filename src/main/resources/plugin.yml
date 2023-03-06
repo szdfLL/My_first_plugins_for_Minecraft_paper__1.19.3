@@ -1,0 +1,18 @@
+name: NameC
+version: '${project.version}'
+main: szdf.namec.Namec
+api-version: 1.19
+commands:
+  nc:
+    #描述这个命令
+    description: NC指令.
+    #用法
+    usage: /nc <P1> <P2> <P3> ...
+    #执行此命令的人所需的权限
+    #permission: OP
+    #没有权限的提示消息
+    permission-message: 你不能执行它.
+    #pay:
+    #  description: 积分发送.
+    #  usage: /nc pay <目标ID> <数值(正整数)>
+    #  permission-message: 你不能执行它.

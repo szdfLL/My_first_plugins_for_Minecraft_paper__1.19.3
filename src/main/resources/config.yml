@@ -1,0 +1,27 @@
+#是否对于OP使用
+a: true
+#是否对于ordinary-player使用
+b: true
+#称号库 按顺序加载,cost置-1表示不启用，也停止继续加载，最多加载32个（t32）;
+title:
+  t1:
+    cost: 10
+    text: '§4新年快乐'
+  t2:
+    cost: 100
+    text: '§6§kI§7开荒者§6§kI'
+  t3:
+    cost: 1000
+    text: '§e大富翁'
+  t4:
+    cost: -1
+    text: 'text'
+#已储存的player列表
+player:
+  szdf:
+    s: false
+    initialize: true
+    m: 300
+    ol: false
+
+
