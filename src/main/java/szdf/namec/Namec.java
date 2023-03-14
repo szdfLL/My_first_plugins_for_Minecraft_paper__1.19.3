@@ -25,7 +25,7 @@ import org.bukkit.command.Command;
 import org.bukkit.event.player.PlayerToggleFlightEvent;
 import org.bukkit.command.CommandSender;
 import org.bukkit.event.player.PlayerQuitEvent;
-//import org.bukkit.entity.Player;
+import org.bukkit.entity.Player;
 //import org.bukkit.event.player.PlayerChatEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
